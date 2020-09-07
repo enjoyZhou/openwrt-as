@@ -20,4 +20,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # CP conf
 pwd
 cd ..
-cp -rf openwrt-ext/target/linux/ramips/ openwrt/target/linux/ramips/
+cp -rf openwrt-ext/target/linux/ramips/* openwrt/target/linux/ramips/
