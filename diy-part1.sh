@@ -22,4 +22,4 @@ cp -rf openwrt-ext/target/linux/ramips/base-files/etc/board.d/01_leds target/lin
 cp -rf openwrt-ext/target/linux/ramips/base-files/etc/board.d/02_network target/linux/ramips/base-files/etc/board.d/
 cp -rf openwrt-ext/target/linux/ramips/base-files/lib/ramips.sh target/linux/ramips/base-files/lib/
 cp -rf openwrt-ext/target/linux/ramips/dts/routerPi1_32M.dts target/linux/ramips/dts/
-cp -rf openwrt-ext/target/linux/ramips/image/mt76x8.mk arget/linux/ramips/image/
+cp -rf openwrt-ext/target/linux/ramips/image/mt76x8.mk target/linux/ramips/image/
