@@ -6,8 +6,8 @@
 #include <dt-bindings/input/input.h>
 
 / {
-	compatible = "hiwifi,hc5661a", "mediatek,mt7628an-soc";
-	model = "Router Pi 1 32M";
+	compatible = "allblue,pi32m", "mediatek,mt7628an-soc";
+	model = "Pi32M";
 
 	aliases {
 		led-boot = &led_system;

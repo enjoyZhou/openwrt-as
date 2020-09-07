@@ -19,9 +19,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # CP conf
 pwd
-ls ..
-# cp -rf ../openwrt-ext/target/linux/ramips/base-files/etc/board.d/01_leds target/linux/ramips/base-files/etc/board.d/
-# cp -rf ../openwrt-ext/target/linux/ramips/base-files/etc/board.d/02_network target/linux/ramips/base-files/etc/board.d/
-# cp -rf ../openwrt-ext/target/linux/ramips/base-files/lib/ramips.sh target/linux/ramips/base-files/lib/
-# cp -rf ../openwrt-ext/target/linux/ramips/dts/routerPi1_32M.dts target/linux/ramips/dts/
-# cp -rf ../openwrt-ext/target/linux/ramips/image/mt76x8.mk target/linux/ramips/image/
+cd ..
+cp -rf openwrt-ext/target/linux/ramips/ openwrt/target/linux/
