@@ -670,11 +670,11 @@ define Device/zyxel_keenetic-extra-ii
 endef
 TARGET_DEVICES += zyxel_keenetic-extra-ii
 
-define Device/allblue_Pi32M
+define Device/allblue_pi32m
   IMAGE_SIZE := 32448k
   DEVICE_VENDOR := AllBlue
   DEVICE_MODEL := Pi32M
   DEVICE_PACKAGES:= kmod-usb2 kmod-usb-ohci uboot-envtools kmod-sdhci-mt7620
-  SUPPORTED_DEVICES += linkits7688 linkits7688d
+  SUPPORTED_DEVICES += pi32m
 endef
 TARGET_DEVICES += allblue_pi32m
