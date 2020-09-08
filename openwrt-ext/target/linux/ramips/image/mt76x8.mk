@@ -672,11 +672,10 @@ TARGET_DEVICES += zyxel_keenetic-extra-ii
 
 define Device/allblue_pi32m
   IMAGE_SIZE := 32448k
-  BLOCKSIZE := 64k
   DEVICE_VENDOR := AllBlue
   DEVICE_MODEL := Pi32M
   DEVICE_PACKAGES:= kmod-usb2 kmod-usb-ohci
   IMAGES += factory.bin
-  IMAGE/factory.bin := $$(sysupgrade_bin) | pad-to $$$$(BLOCKSIZE) | \
+  IMAGE/factory.bin := $$(sysupgrade_bin) | ravpower-wd009-factory
 endef
 TARGET_DEVICES += allblue_pi32m
