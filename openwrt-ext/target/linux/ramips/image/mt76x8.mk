@@ -676,6 +676,5 @@ define Device/allblue_pi32m
   DEVICE_MODEL := Pi32M
   DEVICE_PACKAGES:= kmod-usb2 kmod-usb-ohci
   IMAGES += factory.bin
-  IMAGE/factory.bin := $$(sysupgrade_bin) | ravpower-wd009-factory
 endef
 TARGET_DEVICES += allblue_pi32m
