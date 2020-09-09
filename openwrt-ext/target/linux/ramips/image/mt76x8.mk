@@ -675,6 +675,5 @@ define Device/allblue_pi32m
   DEVICE_VENDOR := AllBlue
   DEVICE_MODEL := Pi32M
   DEVICE_PACKAGES:= kmod-usb2 kmod-usb-ohci
-  IMAGES += factory.bin
 endef
 TARGET_DEVICES += allblue_pi32m
